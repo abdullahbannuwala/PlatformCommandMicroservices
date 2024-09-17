@@ -15,8 +15,6 @@ spec:
       containers:
         - name: commandservice
           image: engrabdullahabdullah/commandservice:latest
-          ports:
-            - containerPort: 8080 
 ---
 apiVersion: v1
 kind: Service
