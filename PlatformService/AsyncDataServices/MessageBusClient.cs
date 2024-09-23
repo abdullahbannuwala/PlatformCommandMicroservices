@@ -2,6 +2,8 @@
 using RabbitMQ.Client;
 using System.Text.Json;
 using System.Text;
+using Microsoft.Extensions.Configuration;
+using System;
 
 namespace PlatformService.AsyncDataServices
 {
